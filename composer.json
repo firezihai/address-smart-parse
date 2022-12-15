@@ -1,0 +1,29 @@
+{
+	"name" : "firezihai/address-smart-parse",
+	"type": "library",
+	"license": "MIT",
+	"keywords": [
+        "php",
+        "address-smart-parse"
+    ],
+	"description": "地址智能识别",
+	"autoload" : {
+		"psr-4" : {
+			"Firezihai\\AddressSmartParse\\" : "src/"
+		}
+	},
+	"authors" : [{
+			"name" : "子海",
+			"email" : "firezihai@163.com"
+		}
+	],
+	"require-dev" : {
+		"friendsofphp/php-cs-fixer" : "^3.12"
+	},
+	"minimum-stability" : "dev",
+	"prefer-stable" : true,
+	"config" : {
+		"optimize-autoloader" : true,
+		"sort-packages" : true
+	}
+}
