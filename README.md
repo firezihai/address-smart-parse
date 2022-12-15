@@ -44,7 +44,7 @@ class RegionService {
 }
 
 $service = new RegionService();
-$address = '18000000000 广东省中山市南头镇民安社区 ';
+$address = '18000000000 广东省中山市南头镇南头大道中59号 ';
 
 $service = new RegionService();
 $smartParse = new AddressSmartParse([$service,'getRegion']);
@@ -60,7 +60,7 @@ print_r($res);
     [town] => 南头镇
     [mobile] => 18000000000
     [name] => 李子海
-    [address] => 南头大道中59号之
+    [address] => 南头大道中59号
 )
 */
 
