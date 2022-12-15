@@ -37,7 +37,7 @@ class RegionService {
     public function getRegion($regionName)
     {
       
-        $region = Region::query()->where('name','like',$name.'%')->first(['id','name','parent_id']);
+        $region = Region::query()->where('name','=',$name)->first(['id','name','parent_id']);
         return $region  ? $region->toArray() : '';
 
     }
